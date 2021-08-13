@@ -5,5 +5,6 @@ module TriviaMaze360 {
     requires javafx.fxml;
     requires javafx.media;
     requires javafx.graphics;
+	requires javafx.base;
 	opens application to javafx.graphics, javafx.fxml;
 }
